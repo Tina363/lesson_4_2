@@ -1,0 +1,135 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css?family=Lexend+Exa:regular,500,700,900&display=swap');
+
+@font-face {
+  font-family: Cony;
+  src: url('../fonts/Cony.woff2') format('woff2'),
+      url('../fonts/Cony.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Cony;
+  src: url('../fonts/Cony-Condydecor.woff2') format('woff2'),
+      url('../fonts/Cony-Condydecor.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Cony;
+  src: url('../fonts/Cony-Bold.woff2') format('woff2'),
+      url('../fonts/Cony-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Andada Pro", "Arial", sans-serif;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+}
+p a {
+  font-style: oblique;
+  text-decoration: underline;
+  color: #29918d;
+}
+.title-main {
+  font-family: "Cony", "Arial", sans-serif;
+  line-height: 1.6;
+  color:#3ab9b5;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  text-shadow: -15px 15px 15px #b8e0df;
+}
+.link {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Lexend Exa", "Arial", sans-serif;
+  line-height: 1.8;
+  color:#188884;
+  text-decoration: underline;
+}
+.subtitle {
+  font-size: 38px;
+  font-weight: 700;
+  text-shadow: -5px 5px 15px rgb(128, 119, 119, 0.3);
+}
+.text {
+  text-align: left;
+  text-indent: 50px;
+}
+.text span {
+  color: #3ab9b5;
+  font-weight: 700;
+  font-family: "Lexend Exa", "Arial", sans-serif;
+  text-transform: uppercase;
+}
+.text-main {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(67, 67, 114);
+}
+.text-main span {
+  font-weight: 700;
+}
+.bottom.text {
+  color: #3bcac5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  font-family: "Cony", "Arial", sans-serif;
+  text-indent: 30px;
+}
+.bottom.text > span {
+  color: #29918d;
+  text-transform: capitalize;
+  text-decoration: overline;
+}
+br.br + .bottom.text {
+  color: rgb(67, 67, 114);
+  font-size: 26px;
+  text-align: center;
+  font-family: "Cony", "Arial", sans-serif;
+  font-weight: 900;
+  word-spacing: 10px;
+}
+.sub-subtitle {
+  font-size: 36px;
+  text-decoration: overline;
+  text-shadow: 0px -5px 50px rgb(128, 119, 119, 0.7);
+  text-transform: capitalize;
+  line-height: 2;
+}
+.footer span {
+  text-decoration: line-through;
+  font-family: "Cony", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-shadow: 3px 5px 15px rgb(159, 148, 219), -3px -5px 35px rgb(212, 72, 159);
+}
+.list {
+  text-align: right;
+}
+.item-link {
+  font-family: "Lexend Exa", "Arial", sans-serif;
+  font-style: oblique;
+  letter-spacing: 3px;
+  color: #3ab9b5;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+
+
+
+
